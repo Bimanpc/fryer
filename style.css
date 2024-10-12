@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff0b3;
+}
+
+#game-container {
+    margin-top: 50px;
+}
+
+#potato-container {
+    margin: 20px auto;
+}
+
+#potato {
+    width: 150px;
+    transition: transform 0.2s;
+}
+
+#potato.fried {
+    transform: scale(1.2) rotate(10deg);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff9933;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc7a00;
+}
